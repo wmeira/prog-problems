@@ -33,7 +33,6 @@ if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input())
-
     c = list(map(int, input().rstrip().split()))
 
     result = jumping_on_clouds(n, c)

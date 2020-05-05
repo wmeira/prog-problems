@@ -2,9 +2,9 @@
 Author: William Meira
 Date: 2020-05-04
 Platform: HackerRank
-Type: Challenge - 10 Days of Statistics
+Type: Challenge - 10 Days of Statistics (day 0)
 Level: Easy
-Link: https://www.hackerrank.com/challenges/s10-weighted-mean/problem
+Link: https://www.hackerrank.com/challenges/s10-weighted-mean
 """
 
 def calculate_weighted_mean(arr, weight, length):
