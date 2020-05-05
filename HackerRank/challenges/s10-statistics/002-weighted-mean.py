@@ -3,6 +3,7 @@ Author: William Meira
 Date: 2020-05-04
 Platform: HackerRank
 Type: Challenge - 10 Days of Statistics
+Level: Easy
 Link: https://www.hackerrank.com/challenges/s10-weighted-mean/problem
 """
 
