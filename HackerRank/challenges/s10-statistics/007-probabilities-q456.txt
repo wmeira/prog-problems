@@ -1,0 +1,32 @@
+Q4. https://www.hackerrank.com/challenges/s10-mcq-4
+
+Sample cases:
+First boy Second girl (A ^ Bc)
+First girl Second boy (Ac ^ B)
+First boy Second boy (A ^ B)***
+First girl Second girl (Ac ^ Bc) (excluded since at least one of them is a boy)
+
+So, there are 3 possibilities and only the third is the probability of both bein a boy.
+
+Answer: 1/3
+
+
+
+Q5. https://www.hackerrank.com/challenges/s10-mcq-5
+
+
+1) First draw could be any card = 52/52
+2) Second draw has to be of the same suit as the first = 12/51
+
+Answer: 12/51
+
+
+
+Q6. https://www.hackerrank.com/challenges/s10-mcq-6
+
+3 red, 4 blues = 7 balls
+
+First draw is red
+Probability second draw being blue is 4/6 = 2/3
+
+Answer: 2/3
