@@ -2,7 +2,7 @@
 Author: William Meira
 Date: 2020-05-11
 Platform: HackerRank
-Type: Challenge - 10 Days of Statistics (day 6)
+Type: Challenge - 10 Days of Statistics (day 7)
 Link: https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient
 """
 
