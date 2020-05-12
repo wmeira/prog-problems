@@ -34,9 +34,9 @@ def cumul_normal_dist(x, mean, std):
     return 0.5 * (1 + erf(z))
 
 
-mean, std = list(map(float, input().split(" ")))
+mean, std = list(map(float, input().rstrip().split(" ")))
 a = float(input())
-b, c = list(map(float, input().split(" ")))  # between b and c
+b, c = list(map(float, input().rstrip().split(" ")))  # between b and c
 
 # mean = 20; std = 2; a = 19.5; b = 20; c = 22
 

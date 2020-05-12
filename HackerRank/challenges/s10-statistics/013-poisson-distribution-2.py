@@ -7,7 +7,7 @@ Level: Easy
 Link: https://www.hackerrank.com/challenges/s10-poisson-distribution-2
 """
 
-a_mean, b_mean = list(map(float, input().split(" ")))
+a_mean, b_mean = list(map(float, input().rstrip().split(" ")))
 
 # expectation of X^2 is
 e_a = a_mean + a_mean * a_mean

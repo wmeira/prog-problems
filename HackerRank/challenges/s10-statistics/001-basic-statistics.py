@@ -9,14 +9,17 @@ Link: https://www.hackerrank.com/challenges/s10-basic-statistics
 
 import math
 
+
 def calculate_mean(arr):
     return sum(arr) / len(arr)
+
 
 def calculate_median(arr):
     n = len(arr) - 1
     if n <= 0:
         return 0
-    return (arr[math.floor(n/2)] + arr[math.ceil(n/2)])/2
+    return (arr[math.floor(n / 2)] + arr[math.ceil(n / 2)]) / 2
+
 
 def calculate_mode(arr):
     occur = 1
@@ -36,6 +39,7 @@ def calculate_mode(arr):
     if occur > max_occur:
         mode = current_mode
     return mode
+
 
 length = int(input())
 arr = [int(a) for a in input().split()]

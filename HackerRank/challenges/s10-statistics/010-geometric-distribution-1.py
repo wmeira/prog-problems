@@ -12,7 +12,7 @@ def geometric_dist(n, p):
     return (1 - p)**(n - 1) * p
 
 
-num, den = list(map(int, input().split(" ")))
+num, den = list(map(int, input().rstrip().split(" ")))
 n = int(input())
 
 p = num / den
