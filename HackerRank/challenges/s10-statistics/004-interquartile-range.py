@@ -10,18 +10,21 @@ Link: https://www.hackerrank.com/challenges/s10-interquartile-range/
 import os
 import math
 
+
 def median(arr):
     n = len(arr) - 1
     if n <= 0:
         return 0
-    return (arr[math.floor(n/2)] + arr[math.ceil(n/2)])/2
+    return (arr[math.floor(n / 2)] + arr[math.ceil(n / 2)]) / 2
+
 
 def quartiles(arr):
     n = len(arr)
-    q1 = median(arr[:n//2])
+    q1 = median(arr[:n // 2])
     q2 = median(arr)
-    q3 = median(arr[math.ceil(n/2):])
+    q3 = median(arr[math.ceil(n / 2):])
     return q1, q2, q3
+
 
 def interquartile_range(arr):
     q1, _, q3 = quartiles(arr)
@@ -36,8 +39,8 @@ if __name__ == '__main__':
     freq = list(map(int, input().rstrip().split()))
 
     s = []
-    for i in range(0,n):
-        s += freq[i]*[arr[i]]
+    for i in range(0, n):
+        s += freq[i] * [arr[i]]
     s.sort()
 
     iq = interquartile_range(s)
